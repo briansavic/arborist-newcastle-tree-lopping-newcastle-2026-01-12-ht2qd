@@ -63,6 +63,13 @@
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
         }
         
+        .card-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+        
         .faq-question {
             cursor: pointer;
             user-select: none;
@@ -252,43 +259,49 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
                 <!-- Licensed Arborists -->
-                <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
+                <a href="licensed-arborists.html" class="card-link">
+                    <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold primary-color mb-3">Licensed Arborists</h3>
+                        <p class="text-gray-700 font-medium leading-relaxed">
+                            Our team consists of fully certified and licensed arborists with extensive training in tree care, safety protocols, and industry best practices. We maintain all necessary credentials and stay current with the latest arboricultural techniques.
+                        </p>
                     </div>
-                    <h3 class="text-2xl font-bold primary-color mb-3">Licensed Arborists</h3>
-                    <p class="text-gray-700 font-medium leading-relaxed">
-                        Our team consists of fully certified and licensed arborists with extensive training in tree care, safety protocols, and industry best practices. We maintain all necessary credentials and stay current with the latest arboricultural techniques.
-                    </p>
-                </div>
+                </a>
 
                 <!-- Same-Day Service -->
-                <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
+                <a href="same-day-service.html" class="card-link">
+                    <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold primary-color mb-3">Same-Day Service</h3>
+                        <p class="text-gray-700 font-medium leading-relaxed">
+                            We understand that tree emergencies can't wait. Our responsive team is available for same-day service requests, ensuring that urgent tree removal and lopping needs are addressed promptly and professionally without unnecessary delays.
+                        </p>
                     </div>
-                    <h3 class="text-2xl font-bold primary-color mb-3">Same-Day Service</h3>
-                    <p class="text-gray-700 font-medium leading-relaxed">
-                        We understand that tree emergencies can't wait. Our responsive team is available for same-day service requests, ensuring that urgent tree removal and lopping needs are addressed promptly and professionally without unnecessary delays.
-                    </p>
-                </div>
+                </a>
 
                 <!-- Fully Insured Work -->
-                <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
+                <a href="fully-insured-work.html" class="card-link">
+                    <div class="card-hover bg-secondary rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300">
+                        <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold primary-color mb-3">Fully Insured Work</h3>
+                        <p class="text-gray-700 font-medium leading-relaxed">
+                            All our work is fully covered by comprehensive insurance. We provide complete protection for your property and peace of mind knowing that every tree service is performed with full liability coverage and professional guarantees.
+                        </p>
                     </div>
-                    <h3 class="text-2xl font-bold primary-color mb-3">Fully Insured Work</h3>
-                    <p class="text-gray-700 font-medium leading-relaxed">
-                        All our work is fully covered by comprehensive insurance. We provide complete protection for your property and peace of mind knowing that every tree service is performed with full liability coverage and professional guarantees.
-                    </p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
